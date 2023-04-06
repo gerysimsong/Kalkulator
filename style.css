@@ -1,0 +1,67 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  textarea {
+    width: 278px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 25%;
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e8e8e8;
+    border: 1px solid #000000;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="button"] {
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: grey;
+  }
+  
+  input[value="AC"],
+  input[value="DEL"] {
+    background-color: orange;
+    font-size: 24px;
+  }
+  
+  input[value="="] {
+    background-color: orange;
+    color: #000000;
+  }
+  
+  input[value="."],
+  input[value="0"] {
+    text-align: center;
+  }
